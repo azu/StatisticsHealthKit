@@ -1,0 +1,47 @@
+PODS:
+  - AKUTestKit (0.0.3)
+  - ChuzzleKit (1.0.3)
+  - NSDate-Escort (1.4.0)
+  - OMGHTTPURLRQ (1.1.4):
+    - ChuzzleKit
+    - OMGHTTPURLRQ/RQ
+    - OMGHTTPURLRQ/UserAgent
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/RQ (1.1.4):
+    - ChuzzleKit
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (1.1.4):
+    - ChuzzleKit
+    - OMGHTTPURLRQ/UserAgent
+  - PromiseKit (0.9.11.1):
+    - PromiseKit/defaults
+  - PromiseKit/base (0.9.11.1)
+  - PromiseKit/defaults (0.9.11.1):
+    - PromiseKit/Foundation
+    - PromiseKit/UIKit
+  - PromiseKit/Foundation (0.9.11.1):
+    - ChuzzleKit
+    - OMGHTTPURLRQ
+    - PromiseKit/base
+  - PromiseKit/private (0.9.11.1)
+  - PromiseKit/UIKit (0.9.11.1):
+    - PromiseKit/base
+    - PromiseKit/private
+
+DEPENDENCIES:
+  - AKUTestKit (from `https://github.com/akuraru/AKUTestKit.git`)
+  - NSDate-Escort
+  - PromiseKit
+
+EXTERNAL SOURCES:
+  AKUTestKit:
+    :git: https://github.com/akuraru/AKUTestKit.git
+
+SPEC CHECKSUMS:
+  AKUTestKit: e4cc1592909457daa802779b166ff1ad97b81d42
+  ChuzzleKit: 2d6a1f9ba844ebca126642990106b8c24de117f7
+  NSDate-Escort: 321f198e6a7a4573541561b42d3163a0ea54ea1b
+  OMGHTTPURLRQ: ca928b53ae60cb4cc078d8f7201f4f647f435351
+  PromiseKit: 88cc9c62635d929a556b6c91cc96dcbfa16e692d
+
+COCOAPODS: 0.33.1
