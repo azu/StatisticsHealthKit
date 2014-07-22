@@ -2,7 +2,7 @@
 
 A Demo of `HKStatisticsCollectionQuery`
 
-![gif](
+![gif](http://gyazo.com/72b0167517693f90f45fe9ac5adaf7f9.gif)
 
 ## Installation
 
