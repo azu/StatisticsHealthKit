@@ -9,6 +9,7 @@
 #import <PromiseKit/Promise.h>
 #import "MasterViewController.h"
 #import "MasterViewControllerModel.h"
+#import "StatisticsViewController.h"
 
 @interface MasterViewController ()
 
@@ -89,6 +90,11 @@
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }
+}
+
+- (void)tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *) indexPath {
+    StatisticsViewController *statisticsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"StatisticsViewController"];
+    [self.navigationController pushViewController:statisticsViewController animated:YES];
 }
 
 @end

@@ -38,7 +38,6 @@
 
 - (PMKPromise *)reloadData {
     NSSortDescriptor *dateSort = [NSSortDescriptor sortDescriptorWithKey:@"endDate" ascending:YES];
-
     NSArray *(^assignDataSource)() = ^(NSArray *dataList) {
         self.dataSource = [dataList sortedArrayUsingDescriptors:@[dateSort]];
         return dataList;

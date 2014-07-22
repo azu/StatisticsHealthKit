@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		17B5C3EBD974D90805D267B1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C04DCFB6A2B1EED4BFA3 /* MasterViewController.m */; };
+		17B5C5C5E4CAE11712B053F5 /* BasicLongGraphTileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CB7810B110B68E00A6C1 /* BasicLongGraphTileView.xib */; };
 		17B5C9B0056C8C5743C8FA7D /* DataStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C49D52AC640AFAB63281 /* DataStoreManager.m */; };
+		17B5CA68A8FDCA91C512BD33 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C7932520EB56F92946FA /* StatisticsViewController.m */; };
+		17B5CAF80E66260738340678 /* StatisticsViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C7340D961ACA681A899F /* StatisticsViewControllerModel.m */; };
+		17B5CB10ED3A9E76BA85A2DC /* BasicLongGraphTileView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C578C1521EA397CD0522 /* BasicLongGraphTileView~ipad.xib */; };
 		17B5CE150CDCA667A6BF071F /* MasterViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C596EB2F34C4D0601552 /* MasterViewControllerModel.m */; };
+		17B5CF38BC0B76160C05D123 /* BasicLongGraphTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C75D1860D617387DFE1A /* BasicLongGraphTileView.m */; };
 		73354410197BBC8400E5F9A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335440F197BBC8400E5F9A9 /* main.m */; };
 		73354413197BBC8400E5F9A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73354412197BBC8400E5F9A9 /* AppDelegate.m */; };
 		73354419197BBC8400E5F9A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73354418197BBC8400E5F9A9 /* DetailViewController.m */; };
@@ -32,10 +37,18 @@
 
 /* Begin PBXFileReference section */
 		17B5C04DCFB6A2B1EED4BFA3 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		17B5C0ECB7DA2E50A14400A1 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
 		17B5C49D52AC640AFAB63281 /* DataStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStoreManager.m; sourceTree = "<group>"; };
+		17B5C578C1521EA397CD0522 /* BasicLongGraphTileView~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "BasicLongGraphTileView~ipad.xib"; sourceTree = "<group>"; };
 		17B5C588E3D64277E768DFF2 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		17B5C596EB2F34C4D0601552 /* MasterViewControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerModel.m; sourceTree = "<group>"; };
+		17B5C7340D961ACA681A899F /* StatisticsViewControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewControllerModel.m; sourceTree = "<group>"; };
+		17B5C75D1860D617387DFE1A /* BasicLongGraphTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLongGraphTileView.m; sourceTree = "<group>"; };
+		17B5C7932520EB56F92946FA /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
 		17B5C8715455C7A38492A023 /* MasterViewControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerModel.h; sourceTree = "<group>"; };
+		17B5CAC44F64AB826584AB8C /* BasicLongGraphTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLongGraphTileView.h; sourceTree = "<group>"; };
+		17B5CB7810B110B68E00A6C1 /* BasicLongGraphTileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicLongGraphTileView.xib; sourceTree = "<group>"; };
+		17B5CD64EFA65FDFD010D7BC /* StatisticsViewControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewControllerModel.h; sourceTree = "<group>"; };
 		17B5CFE2A46C8DE9597DAFDB /* DataStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreManager.h; sourceTree = "<group>"; };
 		724A56E681774BA49F589B93 /* Pods-StatisticsHealthKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatisticsHealthKit.xcconfig"; path = "Pods/Pods-StatisticsHealthKit.xcconfig"; sourceTree = "<group>"; };
 		7335440A197BBC8400E5F9A9 /* StatisticsHealthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatisticsHealthKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +99,18 @@
 			path = Master;
 			sourceTree = "<group>";
 		};
+		17B5CB65466C4A435CE05FB6 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7932520EB56F92946FA /* StatisticsViewController.m */,
+				17B5C0ECB7DA2E50A14400A1 /* StatisticsViewController.h */,
+				17B5CFC6432544920C1109B2 /* GraphView */,
+				17B5C7340D961ACA681A899F /* StatisticsViewControllerModel.m */,
+				17B5CD64EFA65FDFD010D7BC /* StatisticsViewControllerModel.h */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
 		17B5CEB718AA7A927C941A22 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +118,17 @@
 				17B5C49D52AC640AFAB63281 /* DataStoreManager.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		17B5CFC6432544920C1109B2 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C75D1860D617387DFE1A /* BasicLongGraphTileView.m */,
+				17B5CAC44F64AB826584AB8C /* BasicLongGraphTileView.h */,
+				17B5CB7810B110B68E00A6C1 /* BasicLongGraphTileView.xib */,
+				17B5C578C1521EA397CD0522 /* BasicLongGraphTileView~ipad.xib */,
+			);
+			path = GraphView;
 			sourceTree = "<group>";
 		};
 		73354401197BBC8400E5F9A9 = {
@@ -128,6 +164,7 @@
 				7335440D197BBC8400E5F9A9 /* Supporting Files */,
 				17B5CEB718AA7A927C941A22 /* Models */,
 				17B5C31D18BC7408F04508FF /* Master */,
+				17B5CB65466C4A435CE05FB6 /* Statistics */,
 			);
 			path = StatisticsHealthKit;
 			sourceTree = "<group>";
@@ -260,6 +297,8 @@
 			files = (
 				7335441C197BBC8400E5F9A9 /* Main.storyboard in Resources */,
 				7335441E197BBC8400E5F9A9 /* Images.xcassets in Resources */,
+				17B5C5C5E4CAE11712B053F5 /* BasicLongGraphTileView.xib in Resources */,
+				17B5CB10ED3A9E76BA85A2DC /* BasicLongGraphTileView~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +355,9 @@
 				17B5C9B0056C8C5743C8FA7D /* DataStoreManager.m in Sources */,
 				17B5C3EBD974D90805D267B1 /* MasterViewController.m in Sources */,
 				17B5CE150CDCA667A6BF071F /* MasterViewControllerModel.m in Sources */,
+				17B5CA68A8FDCA91C512BD33 /* StatisticsViewController.m in Sources */,
+				17B5CF38BC0B76160C05D123 /* BasicLongGraphTileView.m in Sources */,
+				17B5CAF80E66260738340678 /* StatisticsViewControllerModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

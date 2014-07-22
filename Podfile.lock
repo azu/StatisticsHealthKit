@@ -1,6 +1,12 @@
 PODS:
   - AKUTestKit (0.0.3)
+  - ArsDashFunction (0.0.1)
+  - ArsScale (0.1.2):
+    - ArsDashFunction (~> 0.0.1)
   - ChuzzleKit (1.0.3)
+  - DARecycledScrollView (1.0.1)
+  - DrowningGraphicer (0.1.0)
+  - MHNibLoading (0.1.0)
   - NSDate-Escort (1.4.0)
   - OMGHTTPURLRQ (1.1.4):
     - ChuzzleKit
@@ -30,16 +36,27 @@ PODS:
 
 DEPENDENCIES:
   - AKUTestKit (from `https://github.com/akuraru/AKUTestKit.git`)
+  - ArsScale
+  - DARecycledScrollView (from `https://github.com/balazskiss/DARecycledScrollView`)
+  - DrowningGraphicer
+  - MHNibLoading
   - NSDate-Escort
   - PromiseKit
 
 EXTERNAL SOURCES:
   AKUTestKit:
     :git: https://github.com/akuraru/AKUTestKit.git
+  DARecycledScrollView:
+    :git: https://github.com/balazskiss/DARecycledScrollView
 
 SPEC CHECKSUMS:
   AKUTestKit: e4cc1592909457daa802779b166ff1ad97b81d42
+  ArsDashFunction: 0e4923f8fd46ba6935c83cf561af9340ee50b84a
+  ArsScale: 94ecd9cfe9695a89c69a1079b9f747a519d5939c
   ChuzzleKit: 2d6a1f9ba844ebca126642990106b8c24de117f7
+  DARecycledScrollView: 40f75fdd5b4eea7753242f67904a814c142a1b65
+  DrowningGraphicer: 95aa8cf7e49b91993a63286b2e4d0c916e757df9
+  MHNibLoading: 1c68ddaabdb30474890012103f8e89eea38991d1
   NSDate-Escort: 321f198e6a7a4573541561b42d3163a0ea54ea1b
   OMGHTTPURLRQ: ca928b53ae60cb4cc078d8f7201f4f647f435351
   PromiseKit: 88cc9c62635d929a556b6c91cc96dcbfa16e692d
