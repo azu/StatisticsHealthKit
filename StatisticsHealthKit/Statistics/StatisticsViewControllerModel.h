@@ -20,7 +20,5 @@
 
 - (HKStatistics *)statisticsAtIndex:(NSUInteger) index;
 
-- (id)highestDataValue;
-
 - (NSString *)dateAtIndex:(NSUInteger) index;
 @end

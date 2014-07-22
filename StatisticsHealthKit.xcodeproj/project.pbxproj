@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		17B5C04DCFB6A2B1EED4BFA3 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		17B5C0ECB7DA2E50A14400A1 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		17B5C2BCA7E95FB5DC438E82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		17B5C49D52AC640AFAB63281 /* DataStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStoreManager.m; sourceTree = "<group>"; };
 		17B5C578C1521EA397CD0522 /* BasicLongGraphTileView~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "BasicLongGraphTileView~ipad.xib"; sourceTree = "<group>"; };
 		17B5C588E3D64277E768DFF2 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 				7335440B197BBC8400E5F9A9 /* Products */,
 				724A56E681774BA49F589B93 /* Pods-StatisticsHealthKit.xcconfig */,
 				A44CEB46A5764FC59328EEE4 /* Frameworks */,
+				17B5C2BCA7E95FB5DC438E82 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
